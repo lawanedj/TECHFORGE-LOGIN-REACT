@@ -69,8 +69,8 @@ function Login() {
 
         </form>
         <div className="text-center m-5">
-          <button className="bg-[#84C7AE] px-10 py-2 font-bold hover: text-white text-md rounded-xl" onClick={submitForm}>Create Account</button>
-          <p className="text-sm m-2">Already Have An Account? <a href="http://">Sign In</a></p>
+          <button className="bg-[#84C7AE] px-10 py-2 font-bold appearance:auto hover:bg-green-300 text-white hover:cursor-pointer text-md rounded-xl" onClick={submitForm}>Create Account</button>
+          <p className="text-sm m-2">Already Have An Account? <a href="http://#">Sign In</a></p>
         </div>
       </div>
     </div>
